@@ -105,6 +105,6 @@ and we took **0x2000** size for **shared_ram**. <br>
 - 	Finally, we can declare one or more same variable using **attribute-section** inside **both main.c** of CM-4 and CM-0+<br>
 	in this case, i want use a float - variable and some buffer char
 	
-	char buf_txt[32] __attribute__ ((section(".mysection")));
-	float temperature __attribute__ ((section(".mysection")));
+	>char buf_txt[32] __attribute__ ((section(".mysection")));
+	>float temperature __attribute__ ((section(".mysection")));
 
